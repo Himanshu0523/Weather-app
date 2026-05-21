@@ -34,7 +34,7 @@ A modern, responsive weather dashboard built with plain HTML, CSS, and vanilla J
 
 Your API key is currently exposed directly in the frontend JavaScript file:
 ```javascript
-const API_KEY = '93da37e830d893d85ec77c5a9b9e4142';
+const API_KEY = 'Enter your API key';
 ```
 To prevent unauthorized use, consider hiding it using **Vercel Environment Variables** paired with a backend serverless function (`/api/`) in production.
 
